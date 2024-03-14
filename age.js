@@ -4,7 +4,7 @@
 
 function calculateAge(){
     if(input.value === ""){
-        anyText.innerHTML = " Enter your birth date";
+        anyText.innerHTML = " Enter your birth date.";
         return;
     }
     const birthdate = new Date(document.getElementById("birthdate").value);
